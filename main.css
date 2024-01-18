@@ -1,0 +1,114 @@
+body {
+    margin: 0 auto;
+}
+
+
+
+.father {
+    width: 1600px;
+    height: 960px;
+    background: var(--Background, #A7D7C5);
+    background-image: url(./img/Rectangle\ 7.png);
+    background-image: url(./img/Rectangle\ 8.png);
+}
+
+.child {
+    width: 700px;
+    height: 700px;
+    flex-shrink: 0;
+    border-radius: 49.09px;
+    background: var(--Form-Bg, #F6FBF9);
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 130px;
+}
+
+.child-h3 {
+    width: 484.615px;
+    height: 72.308px;
+    flex-shrink: 0;
+    color: var(--Heading, #212B27);
+    font-family: Karla;
+    font-size: 55.226px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.794px; /* 130% */
+    margin-left: 107px;
+    margin-top: 67px;
+}
+
+.child-p {
+    width: 423.846px;
+    height: 60px;
+    flex-shrink: 0;
+    color: var(--Paragraph, #32403B);
+    text-align: center;
+    font-family: Karla;
+    font-size: 23.011px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.914px; /* 130% */
+    margin-left: 132px;
+    margin-top: -40px;
+}
+
+.child-inp__email {
+    width: 576.923px;
+    height: 84.615px;
+    flex-shrink: 0;
+    border-radius: 15.341px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    text-align: start;
+    margin-left: 12px;
+    margin-top: 35px;
+}
+
+.child-inp__password {
+    width: 576.923px;
+    height: 84.615px;
+    flex-shrink: 0;
+    border-radius: 15.341px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+.child-btn {
+    width: 392.308px;
+    height: 90.769px;
+    flex-shrink: 0;
+    border-radius: 23.011px;
+    background: #84C7AE;
+    margin-top: 32px;
+}
+
+.end {
+    display: flex;
+}
+
+.child-p__end {
+    width: 327.692px;
+    height: 29.231px;
+    flex-shrink: 0;
+    color: var(--Paragraph, #32403B);
+    text-align: center;
+    font-family: Karla;
+    font-size: 21.477px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.92px; /* 130% */
+    margin-left: 130px;
+}
+
+.link {
+    color: var(--Paragraph, #32403B);
+    font-family: Karla;
+    font-size: 21.477px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.92px;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
